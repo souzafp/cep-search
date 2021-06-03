@@ -13,6 +13,8 @@
 		D48095B926683D540089AA60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D48095B726683D540089AA60 /* Main.storyboard */; };
 		D48095BB26683D5C0089AA60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D48095BA26683D5C0089AA60 /* Assets.xcassets */; };
 		D48095BE26683D5C0089AA60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D48095BC26683D5C0089AA60 /* LaunchScreen.storyboard */; };
+		D48095C7266884EB0089AA60 /* ViaCEP.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48095C6266884EB0089AA60 /* ViaCEP.swift */; };
+		D48095CA266888D10089AA60 /* CEPSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48095C9266888D10089AA60 /* CEPSearch.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		D48095BA26683D5C0089AA60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D48095BD26683D5C0089AA60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D48095BF26683D5C0089AA60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D48095C6266884EB0089AA60 /* ViaCEP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViaCEP.swift; sourceTree = "<group>"; };
+		D48095C9266888D10089AA60 /* CEPSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CEPSearch.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				D48095BA26683D5C0089AA60 /* Assets.xcassets */,
 				D48095BC26683D5C0089AA60 /* LaunchScreen.storyboard */,
 				D48095BF26683D5C0089AA60 /* Info.plist */,
+				D48095C6266884EB0089AA60 /* ViaCEP.swift */,
+				D48095C9266888D10089AA60 /* CEPSearch.swift */,
 			);
 			path = "cep-search";
 			sourceTree = "<group>";
@@ -138,8 +144,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D48095B626683D540089AA60 /* ViewController.swift in Sources */,
+				D48095CA266888D10089AA60 /* CEPSearch.swift in Sources */,
 				D48095B226683D540089AA60 /* AppDelegate.swift in Sources */,
 				D48095B426683D540089AA60 /* SceneDelegate.swift in Sources */,
+				D48095C7266884EB0089AA60 /* ViaCEP.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
