@@ -20,9 +20,7 @@ class CEPSearch {
                         return}
                     do{
                         let cep = try JSONDecoder().decode(ViaCEP.self, from: data)
-//                        DispatchQueue.main.async {
                             completion(cep)
-//                        }
                     }catch{
                         print(error.localizedDescription)
                     }
@@ -35,3 +33,4 @@ class CEPSearch {
         }.resume()
     }
 }
+

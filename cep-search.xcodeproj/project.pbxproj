@@ -15,6 +15,8 @@
 		D48095BE26683D5C0089AA60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D48095BC26683D5C0089AA60 /* LaunchScreen.storyboard */; };
 		D48095C7266884EB0089AA60 /* ViaCEP.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48095C6266884EB0089AA60 /* ViaCEP.swift */; };
 		D48095CA266888D10089AA60 /* CEPSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48095C9266888D10089AA60 /* CEPSearch.swift */; };
+		D48095CE2669CE650089AA60 /* NominatimAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48095CD2669CE640089AA60 /* NominatimAPI.swift */; };
+		D48095D12669CF200089AA60 /* CoordinatesSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48095D02669CF200089AA60 /* CoordinatesSearch.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		D48095BF26683D5C0089AA60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D48095C6266884EB0089AA60 /* ViaCEP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViaCEP.swift; sourceTree = "<group>"; };
 		D48095C9266888D10089AA60 /* CEPSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CEPSearch.swift; sourceTree = "<group>"; };
+		D48095CD2669CE640089AA60 /* NominatimAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NominatimAPI.swift; sourceTree = "<group>"; };
+		D48095D02669CF200089AA60 /* CoordinatesSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatesSearch.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +73,8 @@
 				D48095BF26683D5C0089AA60 /* Info.plist */,
 				D48095C6266884EB0089AA60 /* ViaCEP.swift */,
 				D48095C9266888D10089AA60 /* CEPSearch.swift */,
+				D48095CD2669CE640089AA60 /* NominatimAPI.swift */,
+				D48095D02669CF200089AA60 /* CoordinatesSearch.swift */,
 			);
 			path = "cep-search";
 			sourceTree = "<group>";
@@ -143,7 +149,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D48095D12669CF200089AA60 /* CoordinatesSearch.swift in Sources */,
 				D48095B626683D540089AA60 /* ViewController.swift in Sources */,
+				D48095CE2669CE650089AA60 /* NominatimAPI.swift in Sources */,
 				D48095CA266888D10089AA60 /* CEPSearch.swift in Sources */,
 				D48095B226683D540089AA60 /* AppDelegate.swift in Sources */,
 				D48095B426683D540089AA60 /* SceneDelegate.swift in Sources */,
