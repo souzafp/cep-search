@@ -33,9 +33,13 @@ class ViewController: UIViewController, UITextFieldDelegate {
     
     func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
         if textField == tfCep{
+            let maxLength = 8
+            let currentString: NSString = (tfCep.text ?? "") as NSString
+            let newString: NSString =
+                currentString.replacingCharacters(in: range, with: string) as NSString
             let allowedCharacters = CharacterSet(charactersIn:"0123456789")
             let characterSet = CharacterSet(charactersIn: string)
-            return allowedCharacters.isSuperset(of: characterSet);
+            return allowedCharacters.isSuperset(of: characterSet) && newString.length <= maxLength
         }
         return true
     }
