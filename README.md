@@ -17,3 +17,5 @@ Utilizei a API ViaCEP para realizar pesquisa do CEP e retorna os dados de endere
 Apagar marcação do GPS após segunda pesquisa consecutiva
 <br>Apagar marcação do mapa após clicar botão Limpar
 <br>Definir posição default do mapa após limpar os campos
+
+<br><br>Obs: Necessário realizar ajustes na view.
