@@ -25,7 +25,7 @@ class CEPSearch {
                         print(error.localizedDescription)
                     }
                 } else {
-                    print("Status inválido do servidor, Status Code: \(response.statusCode)")
+                    print("Status inválido do servidor. Status Code: \(response.statusCode)")
                 }
             }else{
                 print(error!.localizedDescription)
